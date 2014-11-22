@@ -15,11 +15,15 @@ public class HibernateUtil {
     private HibernateUtil(){}
 
 
-    public static SessionFactory getSessionFactory() throws MalformedURLException {
+    public static SessionFactory getSessionFactory() {
         if(sessionFactory==null) {
 
-            sessionFactory = new Configuration()
-                    .configure(new URL("http://colorchicken.esy.es/temp_measur/hibernate.cfg.xml")).buildSessionFactory();
+            try {
+                sessionFactory = new Configuration()
+                        .configure(new URL("http://colorchicken.esy.es/temp_measur/hibernate.cfg.xml")).buildSessionFactory();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
         }
         return sessionFactory;
     }
