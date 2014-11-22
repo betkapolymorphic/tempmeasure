@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf1ff94-8ab0-4d63-9d27-6def70b2a6ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp_measure.iml" afterPath="$PROJECT_DIR$/temp_measure.iml" />
     </list>
     <ignored path="temp_measure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,10 +116,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HibernateUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Util/HibernateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="9" selection-start="739" selection-end="739" vertical-scroll-proportion="0.60571426" vertical-offset="250" max-vertical-offset="682">
+            <state line="26" column="9" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="682">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="135" column="31" selection-start="4522" selection-end="4522" vertical-scroll-proportion="0.36857143" vertical-offset="2841" max-vertical-offset="3718">
               <folding />
             </state>
           </provider>
@@ -187,17 +197,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SampleRecord.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Model/SampleRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="62" selection-start="191" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="1518">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -238,9 +237,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/Util/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1230,12 +1229,12 @@
       <updated>1416552854816</updated>
       <workItem from="1416552856394" duration="6000" />
       <workItem from="1416552876864" duration="21633000" />
-      <workItem from="1416627964968" duration="23976000" />
+      <workItem from="1416627964968" duration="24113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45615000" />
+    <option name="totallyTimeSpent" value="45752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1547,13 +1546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="12" selection-start="5293" selection-end="5293" vertical-scroll-proportion="0.81142855" vertical-offset="3104" max-vertical-offset="3718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="8" selection-start="671" selection-end="671" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="308">
@@ -1598,7 +1590,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Util/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="739" selection-end="739" vertical-scroll-proportion="0.60571426" vertical-offset="250" max-vertical-offset="682">
+        <state line="26" column="9" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="31" selection-start="4522" selection-end="4522" vertical-scroll-proportion="0.36857143" vertical-offset="2841" max-vertical-offset="3718">
           <folding />
         </state>
       </provider>
