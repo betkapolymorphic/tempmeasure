@@ -50,7 +50,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test-mvc:1.0.0.M2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 7.0.54" level="application_server_libraries" />
-    <orderEntry type="library" name="Hibernate 4.2.2-4.2.2" level="project" />
     <orderEntry type="library" name="raphael" level="application" />
     <orderEntry type="library" name="jquery.datetimepicker" level="application" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:3.2.0.RELEASE" level="project" />

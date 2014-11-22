@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf1ff94-8ab0-4d63-9d27-6def70b2a6ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Hibernate_4_2_2_4_2_2.xml" afterPath="" />
+      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\src\main\webapp\WEB-INF\mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp_measure.iml" afterPath="$PROJECT_DIR$/temp_measure.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="temp_measure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,10 +120,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="HibernateUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Util/HibernateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="21" selection-start="5582" selection-end="5582" vertical-scroll-proportion="0.81142855" vertical-offset="3236" max-vertical-offset="3718">
+            <state line="24" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="594">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="8" selection-start="671" selection-end="671" vertical-scroll-proportion="-5.84" vertical-offset="30" max-vertical-offset="308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="59" selection-start="1218" selection-end="1218" vertical-scroll-proportion="-1.76" vertical-offset="330" max-vertical-offset="638">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="22" selection-start="308" selection-end="308" vertical-scroll-proportion="0.06285714" vertical-offset="154" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -143,15 +174,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="measure.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/measure.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="27" selection-start="934" selection-end="934" vertical-scroll-proportion="-11.896552" vertical-offset="337" max-vertical-offset="3124">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SampleRecordDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/SampleRecordDao.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,27 +187,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/SampleRecordImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="836">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Measurment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Model/Measurment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="16" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="814" max-vertical-offset="1628">
-              <folding>
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1421#1422#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeasurmentDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/MeasurmentDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="26" selection-start="2213" selection-end="2324" vertical-scroll-proportion="0.0" vertical-offset="858" max-vertical-offset="1672">
               <folding />
             </state>
           </provider>
@@ -216,7 +217,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/Model/Sample.java" />
         <option value="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
@@ -245,6 +245,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -684,7 +685,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -1234,16 +1235,16 @@
       <updated>1416552854816</updated>
       <workItem from="1416552856394" duration="6000" />
       <workItem from="1416552876864" duration="21633000" />
-      <workItem from="1416627964968" duration="22007000" />
+      <workItem from="1416627964968" duration="22481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43646000" />
+    <option name="totallyTimeSpent" value="44120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -1257,7 +1258,7 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2818448" sideWeight="0.49859944" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44680852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1367,7 +1368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="54" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="440">
           <folding />
@@ -1377,13 +1378,6 @@
     <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-4.2.2.Final.jar!/org/hibernate/Session.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="6" selection-start="160" selection-end="160" vertical-scroll-proportion="0.25095057" vertical-offset="0" max-vertical-offset="4642" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Util/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="49" selection-start="471" selection-end="471" vertical-scroll-proportion="0.5769231" vertical-offset="22" max-vertical-offset="594">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/hibernate.cfg.xml">
@@ -1403,13 +1397,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.0.RELEASE/spring-beans-3.2.0.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-3.2.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="4" selection-start="2282" selection-end="2282" vertical-scroll-proportion="0.0" vertical-offset="1137" max-vertical-offset="26598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
           <folding />
         </state>
       </provider>
@@ -1461,20 +1448,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/bind/annotation/ResponseBody.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="20" selection-start="350" selection-end="384" vertical-scroll-proportion="-6.48" vertical-offset="80" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="59" selection-start="1218" selection-end="1218" vertical-scroll-proportion="-14.96" vertical-offset="0" max-vertical-offset="638">
           <folding />
         </state>
       </provider>
@@ -1602,7 +1575,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="21" selection-start="5582" selection-end="5582" vertical-scroll-proportion="0.81142855" vertical-offset="3236" max-vertical-offset="3718">
+        <state line="154" column="12" selection-start="5293" selection-end="5293" vertical-scroll-proportion="0.81142855" vertical-offset="3104" max-vertical-offset="3718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Util/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="671" selection-end="671" vertical-scroll-proportion="-5.84" vertical-offset="30" max-vertical-offset="308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="59" selection-start="1218" selection-end="1218" vertical-scroll-proportion="-1.76" vertical-offset="330" max-vertical-offset="638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="308" selection-end="308" vertical-scroll-proportion="0.06285714" vertical-offset="154" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
@@ -1662,12 +1663,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>temp_measure</last-edited>
+          <last-edited>Spring|temp_measure</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1675,7 +1675,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: xml-apis:xml-apis:1.0.b2</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
