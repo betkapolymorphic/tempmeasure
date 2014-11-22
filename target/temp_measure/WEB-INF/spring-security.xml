@@ -16,6 +16,9 @@
         <authentication-provider>
             <user-service>
                 <user name="admin" password="pass"  authorities="ROLE_USER" />
+                <user name="jenya" password="bog"  authorities="ROLE_USER" />
+                <user name="katya" password="krasavica"  authorities="ROLE_USER" />
+                <user name="albert" password="shataltrubu"  authorities="ROLE_USER" />
             </user-service>
         </authentication-provider>
     </authentication-manager>
