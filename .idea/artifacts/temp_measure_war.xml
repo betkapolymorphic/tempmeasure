@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="temp_measure:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="temp_measure.war">
+      <element id="artifact" artifact-name="temp_measure:war exploded" />
+    </root>
+  </artifact>
+</component>

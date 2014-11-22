@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3249508302">
+    <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="efab8f5a-e3e2-428c-b6e7-6e2b6e609ccd">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://master038.unihost.com/temp_measur</jdbc-url>
+      <user-name>xxnUuVvE</user-name>
+      <user-password>dfe5dfe2df9cdffbdfe3dff9dffadfec</user-password>
+      <libraries>
+        <library>
+          <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.31/mysql-connector-java-5.1.31.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
