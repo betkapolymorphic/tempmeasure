@@ -29,8 +29,12 @@ public class HelloController {
     SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm", Locale.ENGLISH);
     @RequestMapping(method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
-		model.addAttribute("message", "Hello world!");
-		return "hello";
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        String name = auth.getName(); //get logged in username
+        List<Measurment> measurments = measurmentDAO.getMeasurments(name);
+        model.addAttribute("name",name);
+        model.addAttribute("measurments",measurments);
+		return "main";
 	}
     @RequestMapping(method = RequestMethod.GET,value = "/main")
     public String mainPanel(ModelMap modelMap)
@@ -155,7 +159,7 @@ public class HelloController {
 
     }
     @RequestMapping(value = "/uploadFile", method = RequestMethod.POST)
-    @ResponseBody
+    //@ResponseBody
     String uploadFileHandler(@RequestParam("position") String position,
                              @RequestParam("file") MultipartFile file,
                              @RequestParam("date") String date,
@@ -178,14 +182,14 @@ public class HelloController {
                 measurmentDAO.save(measurment,true);
 
 
-                return "Success";
+                return "success";
             } catch (Exception e) {
-                return "Error"+e.getMessage();
+                return "error";
                 //new SimpleDateFormat("MMMM d, yyyy", Locale.ENGLISH).parse(date);
 
             }
         } else {
-            return "Error :(";
+            return "error";
         }
     }
 

@@ -206,7 +206,7 @@
     File to upload: <input type="file" name="file"><br />
     Position: <input type="text" name="position"><br /> <br />
 
-    Sample record frequency<input type="text" value="2.5"  name="frequency"><br /> <br />
+    Sample record frequency(sec)<input type="text" value="2.5"  name="frequency"><br /> <br />
     <input type="submit" value="Upload"> Upload!
 </form>
 </div>

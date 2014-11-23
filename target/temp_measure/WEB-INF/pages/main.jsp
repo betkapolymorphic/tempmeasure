@@ -166,7 +166,7 @@
 <div align="center" id="container" style="min-width: 310px; height: 400px; margin: 0 auto;display: none;" ></div>
 
 
-<table border="5" align="center" class="bordered">
+<table border="5" align="center" >
     <tr>
 
             <th>Id measurm</th>
@@ -185,8 +185,7 @@
             <td><c:out value="${measurm.position}"/></td>
             <td><c:out value="${measurm.sizeSamples}"/></td>
             <td>
-                <a href="/measure/<c:out value="${measurm.idMeasurment}"/>" > Show</a><br>
-                <button onclick="showMeasure(<c:out value="${measurm.idMeasurment}"/>)">show</button><br>
+                 <button onclick="showMeasure(<c:out value="${measurm.idMeasurment}"/>)">show</button><br>
                  <button onclick="removeMeasure(<c:out value="${measurm.idMeasurment}"/>)"> Remove</button>
             </td>
         </tr>
@@ -207,7 +206,7 @@
     File to upload: <input type="file" name="file"><br />
     Position: <input type="text" name="position"><br /> <br />
 
-    Sample record frequency<input type="text" value="2.5"  name="frequency"><br /> <br />
+    Sample record frequency(sec)<input type="text" value="2.5"  name="frequency"><br /> <br />
     <input type="submit" value="Upload"> Upload!
 </form>
 </div>
