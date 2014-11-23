@@ -8,7 +8,7 @@
     <name>temp_measure</name>
 
     <properties>
-        <spring.version>4.0.6.RELEASE</spring.version>
+        <spring.version>3.2.10.RELEASE</spring.version>
     </properties>
 
     <dependencies>
@@ -127,8 +127,8 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
 
