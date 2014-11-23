@@ -5,80 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf1ff94-8ab0-4d63-9d27-6def70b2a6ef" name="Default" comment="">
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\Controller\HelloController.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\DAO\MeasurmentDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\DAO\MeasurmentDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\DAO\SampleRecordDao.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\DAO\SampleRecordImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\Model\Measurment.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\Model\SampleRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\Util\HibernateUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\Util\SampleRecordBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\com\springapp\mvc\Util\SampleRecordParser.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\classes\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\dependency\jetty-runner.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\dependency\webapp-runner.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\surefire-reports\TEST-com.springapp.mvc.AppTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\surefire-reports\com.springapp.mvc.AppTests.txt" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure.war" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\Controller\HelloController.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\DAO\MeasurmentDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\DAO\MeasurmentDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\DAO\SampleRecordDao.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\DAO\SampleRecordImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\Model\Measurment.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\Model\SampleRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\Util\HibernateUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\Util\SampleRecordBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\com\springapp\mvc\Util\SampleRecordParser.class" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\classes\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final-tests.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\hibernate-commons-annotations-4.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\hibernate-core-4.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\hibernate-entitymanager-4.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\hibernate-validator-4.2.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\javassist-3.15.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\jboss-logging-3.1.0.CR2.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\json-20090211.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\mysql-connector-java-5.1.31.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\servlet-api-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\slf4j-api-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-aop-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-beans-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-context-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-core-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-expression-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-security-config-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-security-core-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-security-web-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-web-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\spring-webmvc-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\validation-api-1.0.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\lib\xml-apis-1.0.b2.jar" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\pages\hello.jsp" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\pages\hum.html" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\pages\main.jsp" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\pages\main1.jsp" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\pages\measure.jsp" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\spring-security.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\temp_measure\resource\css\demo.css" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\target\test-classes\com\springapp\mvc\AppTests.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="temp_measure.iws" />
@@ -180,19 +107,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SampleRecord.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Model/SampleRecord.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="5" selection-start="823" selection-end="823" vertical-scroll-proportion="-0.08040201" vertical-offset="742" max-vertical-offset="1496">
+            <state line="10" column="29" selection-start="473" selection-end="473" vertical-scroll-proportion="0.8894472" vertical-offset="43" max-vertical-offset="3806">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-core-4.0.6.RELEASE.pom" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.6.RELEASE/spring-core-4.0.6.RELEASE.pom">
+      <file leaf-file-name="SampleRecord.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Model/SampleRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1584">
+            <state line="36" column="5" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="742" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -436,20 +363,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -472,100 +385,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -586,32 +405,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp_measure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1186,12 +979,12 @@
       <workItem from="1416627964968" duration="25038000" />
       <workItem from="1416751485131" duration="1630000" />
       <workItem from="1416760641641" duration="166000" />
-      <workItem from="1416760808793" duration="1140000" />
+      <workItem from="1416760808793" duration="1311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49613000" />
+    <option name="totallyTimeSpent" value="49784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1209,8 +1002,8 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.57610476" sideWeight="0.81112736" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2818448" sideWeight="0.4980695" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.57610476" sideWeight="0.81112736" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2818448" sideWeight="0.4980695" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44680852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1600,16 +1393,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Model/SampleRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="21" selection-start="4720" selection-end="4720" vertical-scroll-proportion="2.437186" vertical-offset="2617" max-vertical-offset="3806">
+        <state line="36" column="5" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="742" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Model/SampleRecord.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="823" selection-end="823" vertical-scroll-proportion="-0.08040201" vertical-offset="742" max-vertical-offset="1496">
+        <state line="10" column="29" selection-start="473" selection-end="473" vertical-scroll-proportion="0.8894472" vertical-offset="43" max-vertical-offset="3806">
           <folding />
         </state>
       </provider>
