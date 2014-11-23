@@ -19,6 +19,6 @@
 
     </beans:bean>
     <mvc:resources mapping="/resources/**" location="/resource/" />
-
+    <context:annotation-config />
 
 </beans:beans>
