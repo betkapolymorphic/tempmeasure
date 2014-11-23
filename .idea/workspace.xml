@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf1ff94-8ab0-4d63-9d27-6def70b2a6ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_security_spring_security_config_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_security_spring_security_core_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_security_spring_security_web_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_aop_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_beans_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_core_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_test_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_web_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp_measure.iml" afterPath="$PROJECT_DIR$/temp_measure.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/temp_measure_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/temp_measure_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="temp_measure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,19 +122,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spring-security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="57" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-5.72" vertical-offset="297" max-vertical-offset="660">
+            <state line="88" column="30" selection-start="3090" selection-end="3090" vertical-scroll-proportion="4.5885715" vertical-offset="330" max-vertical-offset="3718">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="spring-core-3.2.0.RELEASE.pom" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.0.RELEASE/spring-core-3.2.0.RELEASE.pom">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="16" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="3718">
+            <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1518">
               <folding />
             </state>
           </provider>
@@ -155,16 +170,16 @@
       <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="16" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="638">
+            <state line="19" column="16" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="7" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.6857143" vertical-offset="662" max-vertical-offset="1056">
+            <state line="18" column="3" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
               <folding />
             </state>
           </provider>
@@ -238,9 +253,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/Util/HibernateUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1231,16 +1246,16 @@
       <workItem from="1416552856394" duration="6000" />
       <workItem from="1416552876864" duration="21633000" />
       <workItem from="1416627964968" duration="25038000" />
-      <workItem from="1416751485131" duration="588000" />
+      <workItem from="1416751485131" duration="1478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47265000" />
+    <option name="totallyTimeSpent" value="48155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -1249,12 +1264,12 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16544656" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2667758" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.18887262" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289689" sideWeight="0.81112736" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2818448" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44680852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1266,7 +1281,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2818448" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12664714" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12664714" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1371,9 +1386,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="16" selection-start="2726" selection-end="2726" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="2376">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2797#2809#0" expanded="true" />
-            <element signature="e#4828#4842#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2797#2809#0" expanded="false" />
+            <element signature="e#4828#4842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1403,8 +1418,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="18" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0" vertical-offset="1144" max-vertical-offset="1936">
           <folding>
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="false" />
+            <element signature="e#1421#1422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1427,9 +1442,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="396">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2797#2809#0" expanded="true" />
-            <element signature="e#4828#4842#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2797#2809#0" expanded="false" />
+            <element signature="e#4828#4842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1537,7 +1552,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="62" selection-start="191" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="1518">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1574,8 +1589,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="16" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="814" max-vertical-offset="1628">
           <folding>
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="false" />
+            <element signature="e#1421#1422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1591,9 +1606,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="174" column="0" selection-start="7122" selection-end="7122" vertical-scroll-proportion="0.0" vertical-offset="3718" max-vertical-offset="4334">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2797#2809#0" expanded="true" />
-            <element signature="e#4828#4842#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2797#2809#0" expanded="false" />
+            <element signature="e#4828#4842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1619,13 +1634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="3718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="12" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="594">
@@ -1640,13 +1648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="57" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-5.72" vertical-offset="297" max-vertical-offset="660">
@@ -1656,7 +1657,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="7" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.6857143" vertical-offset="662" max-vertical-offset="1056">
+        <state line="18" column="3" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="16" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.0.RELEASE/spring-core-3.2.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1518">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="30" selection-start="3090" selection-end="3090" vertical-scroll-proportion="4.5885715" vertical-offset="330" max-vertical-offset="3718">
           <folding />
         </state>
       </provider>
