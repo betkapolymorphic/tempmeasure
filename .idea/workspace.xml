@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf1ff94-8ab0-4d63-9d27-6def70b2a6ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_0_RELEASE.xml" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_aop_3_2_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_beans_3_2_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_context_3_2_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_core_3_2_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_expression_3_2_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_test_3_2_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_web_3_2_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_10_RELEASE.xml" afterPath="" />
-      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_aop_3_2_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_beans_3_2_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_core_3_2_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_expression_3_2_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_test_3_2_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_web_3_2_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_0_RELEASE.xml" />
-      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_security_spring_security_config_3_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_security_spring_security_core_3_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="B:\Google Drive\GitHub\temp_measure\.idea\libraries\Maven__org_springframework_security_spring_security_web_3_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_0_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp_measure.iml" afterPath="$PROJECT_DIR$/temp_measure.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/temp_measure_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/temp_measure_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -131,7 +114,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="22" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.84029037" vertical-offset="1473" max-vertical-offset="3608">
+            <state line="88" column="22" selection-start="3081" selection-end="3081" vertical-scroll-proportion="-3.438849" vertical-offset="2892" max-vertical-offset="3608">
               <folding />
             </state>
           </provider>
@@ -1105,6 +1088,17 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="false" name="Unnamed" type="heroku-deploy" factoryName="Heroku Deployment" server-name="Heroku">
+      <deployment type="module" name="temp_measure">
+        <settings>
+          <option name="defaultDeploymentName" value="false" />
+          <option name="deploymentName" value="tempmeasure1" />
+        </settings>
+      </deployment>
+      <RunnerSettings RunnerId="DeployToServer" />
+      <ConfigurationWrapper RunnerId="DeployToServer" />
+      <method />
+    </configuration>
     <configuration default="false" name="Tomcat 7.0.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.54" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/main" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
@@ -1183,26 +1177,15 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="Unnamed" type="heroku-deploy" factoryName="Heroku Deployment" server-name="Heroku">
-      <deployment type="module" name="temp_measure">
-        <settings>
-          <option name="defaultDeploymentName" value="false" />
-          <option name="deploymentName" value="tempmeasure" />
-        </settings>
-      </deployment>
-      <RunnerSettings RunnerId="DeployToServer" />
-      <ConfigurationWrapper RunnerId="DeployToServer" />
-      <method />
-    </configuration>
     <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.54" />
-      <item index="2" class="java.lang.String" itemvalue="Heroku Deployment.Unnamed" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MeasurmentDao" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HelloController" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SampleRecordParser" />
-      <item index="6" class="java.lang.String" itemvalue="Application.MeasurmentDaoImpl" />
-      <item index="7" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MeasurmentDao" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HelloController" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SampleRecordParser" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MeasurmentDaoImpl" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="5" class="java.lang.String" itemvalue="Heroku Deployment.Unnamed" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.AppTests" />
+      <item index="7" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.54" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1246,16 +1229,16 @@
       <workItem from="1416627964968" duration="25038000" />
       <workItem from="1416751485131" duration="1630000" />
       <workItem from="1416760641641" duration="166000" />
-      <workItem from="1416760808793" duration="231000" />
+      <workItem from="1416760808793" duration="365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48704000" />
+    <option name="totallyTimeSpent" value="48838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -1270,8 +1253,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.81112736" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2818448" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44680852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2818448" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44680852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1281,7 +1264,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2818448" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12664714" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12664714" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1678,7 +1661,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="22" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.84029037" vertical-offset="1473" max-vertical-offset="3608">
+        <state line="88" column="22" selection-start="3081" selection-end="3081" vertical-scroll-proportion="-3.438849" vertical-offset="2892" max-vertical-offset="3608">
           <folding />
         </state>
       </provider>
