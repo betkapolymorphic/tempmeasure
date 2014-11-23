@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+        var temp = [];
+        var hum = [];
+        var titles=[];
+        $( document ).ready(function() {
+        //$.get("http://localhost:8080/getMeasure?id=4&compression=4",function(data){
+             var data='{"idMesurment":4,"Date":"2014-11-21 17:12:59.0","Position":"Kharkiv","samples":[{"humidity":39.400001525878906,"temperature":24},{"humidity":37.20000076293945,"temperature":23},{"humidity":39.79999923706055,"temperature":24.200000762939453},{"humidity":38.400001525878906,"temperature":23.799999237060547},{"humidity":40.400001525878906,"temperature":24.399999618530273},{"humidity":39.599998474121094,"temperature":24},{"humidity":41.20000076293945,"temperature":24.200000762939453},{"humidity":39.400001525878906,"temperature":24},{"humidity":40,"temperature":24},{"humidity":37.599998474121094,"temperature":23.200000762939453},{"humidity":38.5,"temperature":23.5}]}';
+             if(data!=""){
+                   temp=[];
+                   hum=[];
+                    titles = [];
+                   result = data.trim();
+                   result = jQuery.parseJSON(result);
+                   for(var i=0;i<result.samples.length;i++){
+                       temp.push(result.samples[i].temperature);
+                       hum.push(result.samples[i].humidity);
+                       titles.push(result.samples[i].title);
+                   }
+                    drawChart();
+
+               }
+        });
+        function drawChart () {
+            $('#container').highcharts({
+                chart: {
+                    zoomType: 'xy'
+                },
+                title: {
+                    text: 'Average Monthly Temperature and Rainfall in Tokyo'
+                },
+                subtitle: {
+                    text: 'Source: WorldClimate.com'
+                },
+                xAxis: [{
+                    categories: titles
+                }],
+                yAxis: [{ // Primary yAxis
+                    labels: {
+                        format: '{value}°C',
+                        style: {
+                            color: Highcharts.getOptions().colors[1]
+                        }
+                    },
+                    title: {
+                        text: 'Temperature',
+                        style: {
+                            color: Highcharts.getOptions().colors[1]
+                        }
+                    }
+                }, { // Secondary yAxis
+                    title: {
+                        text: 'Rainfall',
+                        style: {
+                            color: Highcharts.getOptions().colors[0]
+                        }
+                    },
+                    labels: {
+                        format: '{value} mm',
+                        style: {
+                            color: Highcharts.getOptions().colors[0]
+                        }
+                    },
+                    opposite: true
+                }],
+                tooltip: {
+                    shared: true
+                },
+                legend: {
+                    layout: 'vertical',
+                    align: 'left',
+                    x: 120,
+                    verticalAlign: 'top',
+                    y: 100,
+                    floating: true,
+                    backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+                },
+                series: [{
+                    name: 'Humidity',
+                    type: 'column',
+                    yAxis: 1,
+                    data: hum,
+                    tooltip: {
+                        valueSuffix: ' mm'
+                    }
+
+                }, {
+                    name: 'Temperature',
+                    type: 'spline',
+                    data: temp,
+                    tooltip: {
+                        valueSuffix: '°C'
+                    }
+                }]
+            });
+        }
+    </script>
+    <title></title>
+</head>
+<body>
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+</body>
+</html>

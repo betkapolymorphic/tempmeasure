@@ -15,7 +15,7 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <style type="text/css">
         ${demo.css}
-        . {
+        .bordered {
             border: 2px solid;
             border-radius: 25px;
         }
@@ -28,7 +28,7 @@
            $("#datetime").datetimepicker();
             $("#datebetween_begin").datetimepicker();
             $("#datebetween_end").datetimepicker();
-            $("#container").hide();
+            //$("#container").hide();
         });
         function removeMeasure(id){
             if (confirm('Are you sure you want delete this Measurment?')) {
@@ -163,10 +163,10 @@
     <title></title>
 </head>
 <body >
-<div align="center" id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div align="center" id="container" style="min-width: 310px; height: 400px; margin: 0 auto;display: none;" ></div>
 
 
-<table border="5" align="center" class="bordered">
+<table border="5" align="center" >
     <tr>
 
             <th>Id measurm</th>
@@ -185,8 +185,7 @@
             <td><c:out value="${measurm.position}"/></td>
             <td><c:out value="${measurm.sizeSamples}"/></td>
             <td>
-                <a href="/measure/<c:out value="${measurm.idMeasurment}"/>" > Show</a><br>
-                <button onclick="showMeasure(<c:out value="${measurm.idMeasurment}"/>)">show</button><br>
+                 <button onclick="showMeasure(<c:out value="${measurm.idMeasurment}"/>)">show</button><br>
                  <button onclick="removeMeasure(<c:out value="${measurm.idMeasurment}"/>)"> Remove</button>
             </td>
         </tr>
