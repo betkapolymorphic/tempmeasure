@@ -41,4 +41,17 @@ public class SampleRecordImpl implements SampleRecordDao{
         }
         return ts;
     }
+
+    @Override
+    public TreeSet<SampleRecord> getAllRecords(String username) {
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        Transaction transaction = session.beginTransaction();
+
+        List<SampleRecord> list = session.createQuery("FROM SampleRecord order by sample_time").list();
+        TreeSet ts = new TreeSet();
+        for(SampleRecord sr : list){
+            ts.add(sr);
+        }
+        return ts;
+    }
 }

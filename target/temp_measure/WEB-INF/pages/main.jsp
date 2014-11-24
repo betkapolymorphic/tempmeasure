@@ -12,20 +12,47 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Temperature, Humidity</title>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/resources/js/jquery.js"></script>
+    <script type="text/javascript" src="/resources/js/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="/resources/js/bootstrap.min.js"></script>
     <style type="text/css">
         ${demo.css}
         .bordered {
             border: 2px solid;
             border-radius: 25px;
         }
+        .container {
+            padding-top: 40px;
+        }
     </style>
 
+    <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="http://colorchicken.esy.es/temp_measur/jquery.datetimepicker.css"/>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="/resources/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/resources/css/jquery.datetimepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css"/>
     <script>
+        $(document).on('click', '.number-spinner button', function () {
+            var btn = $(this),
+                    oldValue = btn.closest('.number-spinner').find('input').val().trim(),
+                    newVal = 0;
+
+            if (btn.attr('data-dir') == 'up') {
+                newVal = parseInt(oldValue) + 1;
+            } else {
+                if (oldValue > 1) {
+                    newVal = parseInt(oldValue) - 1;
+                } else {
+                    newVal = 1;
+                }
+            }
+            btn.closest('.number-spinner').find('input').val(newVal);
+        });
         $(function () {
-           $("#datetime").datetimepicker();
+            $("#mytable").tablesorter();
+            $("#datetime").datetimepicker();
             $("#datebetween_begin").datetimepicker();
             $("#datebetween_end").datetimepicker();
             //$("#container").hide();
@@ -159,6 +186,79 @@
                 }]
             });
         }
+        function showAllMeasure(){
+            $.get("/api/getMeasureAll?periodHours=" + $("#measure_period").val(),function(data){
+                if(data.trim()==""){
+                    return;
+                }
+                result = data.trim();
+                result = jQuery.parseJSON(result);
+                var ranges = [];
+                var averages = [];
+                for(var i=0;i<result.samples.length;i++){
+                    var cur = result.samples[i];
+
+                    var date = Number(cur.mid.timespan);
+                    ranges.push([date,cur.min.temperature == undefined ? null : cur.min.temperature
+                        ,cur.max.temperature == undefined ? null : cur.max.temperature]);
+
+                    averages.push([date,cur.mid.temperature=="null" ? null : cur.mid.temperature]);
+
+
+                }
+                drawChartAllMeasure(result.title,averages,ranges);
+            });
+        }
+        function drawChartAllMeasure(RTitle,averages,ranges){
+
+            $("#container").show();
+            $('#container').highcharts({
+
+                title: {
+                    text: RTitle
+                },
+
+                xAxis: {
+                    type: 'datetime'
+                },
+
+                yAxis: {
+                    title: {
+                        text: null
+                    }
+                },
+
+                tooltip: {
+                    crosshairs: true,
+                    shared: true,
+                    valueSuffix: '°C'
+                },
+
+                legend: {
+                },
+
+                series: [{
+                    name: 'Temperature',
+                    data: averages,
+                    zIndex: 1,
+                    marker: {
+                        fillColor: 'white',
+                        lineWidth: 2,
+                        lineColor: Highcharts.getOptions().colors[0]
+                    }
+                }, {
+                    name: 'Range',
+                    data: ranges,
+                    type: 'arearange',
+                    lineWidth: 0,
+                    linkedTo: ':previous',
+                    color: Highcharts.getOptions().colors[0],
+                    fillOpacity: 0.3,
+                    zIndex: 0
+                }]
+            });
+        }
+
     </script>
     <title></title>
 </head>
@@ -166,7 +266,8 @@
 <div align="center" id="container" style="min-width: 310px; height: 400px; margin: 0 auto;display: none;" ></div>
 
 
-<table border="5" align="center" >
+<table class="tablesorter" border="0" cellpadding="0" cellspacing="1" align="center" id="mytable" >
+    <thead>
     <tr>
 
             <th>Id measurm</th>
@@ -176,6 +277,7 @@
             <th>Operation</th>
 
     </tr>
+    </thead>
     <c:forEach var="measurm" items="${measurments}">
 
 
@@ -193,7 +295,28 @@
 
     </c:forEach>
 </table>
+<div class="container bordered" align = "center">
+    <div class="row">
+        <div class="col-xs-3 col-xs-offset-3">
+            <p>Period (hours)</p><br>
+            <div class="input-group number-spinner">
+
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="dwn"><span class="glyphicon glyphicon-minus"></span></button>
+				</span>
+                <input type="text" id="measure_period" class="form-control text-center" value="24" placeholder="measure period hours">
+				<span class="input-group-btn">
+					<button class="btn btn-default" data-dir="up"><span class="glyphicon glyphicon-plus"></span></button>
+				</span>
+            </div>
+            <button onclick="showAllMeasure()">Show all Temperature</button><br>
+        </div>
+    </div>
+</div>
+
+
 <div align="center" class="bordered">
+
     <h1>Search beetween</h1>
     Begin : <input type="text" name="date" id="datebetween_begin"><br /> <br />
     End : <input type="text" name="date" id="datebetween_end"><br /> <br />
@@ -211,11 +334,15 @@
 </form>
 </div>
 <br>
-<script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="http://code.highcharts.com/modules/exporting.js"></script>
-
+<!--<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>-->
+<script src="/resources/js/highcharts.js"></script>
+<script src="/resources/js/highcharts-more.js"></script>
+<script src="/resources/js/modules/exporting.js"></script>
 
 </body>
-<script src="http://colorchicken.esy.es/temp_measur/jquery.datetimepicker.js"></script>
+<!--<script src="http://colorchicken.esy.es/temp_measur/jquery.datetimepicker.js"></script>
+-->
+<script src="/resources/js/jquery.datetimepicker.js"></script>
 
 </html>

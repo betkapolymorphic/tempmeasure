@@ -12,4 +12,5 @@ import java.util.TreeSet;
 public interface SampleRecordDao {
     void save(SampleRecord sampleRecord,Session session);
     TreeSet<SampleRecord> getRecords(Date d1,Date d2,String username);
+    TreeSet<SampleRecord> getAllRecords(String username);
 }

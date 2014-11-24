@@ -1,5 +1,8 @@
 package com.springapp.mvc.Model;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -8,14 +11,14 @@ import java.util.Date;
  */
 @Entity
 @Table(name = "sample_record")
-public class SampleRecord implements Comparable<SampleRecord> {
+public class SampleRecord implements Comparable<SampleRecord>,Cloneable {
     public SampleRecord() {
     }
 
 
     private int idsample;
-    private float humidity;
-    private float temperature;
+    private Float humidity = null;
+    private Float temperature = null;
     private Measurment measurment;
     private Date sample_time;
 
@@ -24,7 +27,7 @@ public class SampleRecord implements Comparable<SampleRecord> {
         this.sample_time = sample_time;
     }
 
-    public SampleRecord(float temperature, float humidity,Date d) {
+    public SampleRecord(Float temperature, Float humidity,Date d) {
         this.sample_time = d;
         this.temperature = temperature;
         this.humidity = humidity;
@@ -49,17 +52,31 @@ public class SampleRecord implements Comparable<SampleRecord> {
 
 
     @Column(name="humidity")
-    public float getHumidity() {
+    public Float getHumidity() {
         return humidity;
     }
     @Column(name="temperature")
-    public float getTemperature() {
+    public  Float getTemperature() {
         return temperature;
     }
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "idMeasurment")
     public Measurment getMeasurment() {
         return measurment;
+    }
+
+    public JSONObject toJson(){
+        JSONObject sampleJSON = new JSONObject();
+        try {
+            sampleJSON.put("humidity",getHumidity()==null?"null":getHumidity());
+            sampleJSON.put("temperature",getTemperature()==null?"null":getTemperature());
+            sampleJSON.put("date",getSample_time());
+            sampleJSON.put("timespan",getSample_time().getTime());
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return sampleJSON;
     }
 
 
@@ -71,11 +88,11 @@ public class SampleRecord implements Comparable<SampleRecord> {
         this.measurment = measurment;
     }
 
-    public void setHumidity(float humidity) {
+    public void setHumidity( Float humidity) {
         this.humidity = humidity;
     }
 
-    public void setTemperature(float temperature) {
+    public void setTemperature( Float temperature) {
         this.temperature = temperature;
     }
 

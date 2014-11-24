@@ -20,6 +20,26 @@ import org.springframework.web.multipart.MultipartFile;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+/*
+        Calendar cal = Calendar.getInstance(); // creates calendar
+        cal.setTime(allSaplesByPeriod.get(0).getSample_time()); //
+        Date count_time = cal.getTime();
+        SampleRecord curSampleRecord = allSaplesByPeriod.get(0);
+        int listCounter = 0;
+
+        while(count_time.compareTo(allSaplesByPeriod.get(allSaplesByPeriod.size()-1).getSample_time()) <0 ){
+            cal.add(Calendar.HOUR, (int) preriod);
+            count_time = cal.getTime();
+            if(count_time.compareTo(curSampleRecord.getSample_time()) < 0 ){
+                allSaplesByPeriod.add(listCounter,new SampleRecord(0,0,count_time));
+            }else{
+                if(listCounter>=allSaplesByPeriod.size()){
+                    break;
+                }
+                curSampleRecord = allSaplesByPeriod.get(listCounter);
+            }
+            listCounter++;
+        }*/
 
 @Controller
 @RequestMapping("/")
@@ -56,7 +76,70 @@ public class HelloController {
     }
 
 
-    @RequestMapping(value = "/api/getMeasurePeriod",method = RequestMethod.GET)
+    @RequestMapping(value = "/api/getMeasureAll",method = RequestMethod.GET)
+    @ResponseBody
+    String getAllMeasure(@RequestParam("periodHours")String period){
+        float preriod = Float.parseFloat(period);
+        List<MeasurmentDAO.SampleRecordAverage> allSaplesByPeriod
+                = measurmentDAO.getAllSaplesByPeriod(SecurityContextHolder.getContext().getAuthentication().getName(), preriod);
+
+        if(allSaplesByPeriod.size()==0){
+            return "";
+        }
+        Collections.sort(allSaplesByPeriod,new Comparator<MeasurmentDAO.SampleRecordAverage>() {
+            @Override
+            public int compare(MeasurmentDAO.SampleRecordAverage o1, MeasurmentDAO.SampleRecordAverage o2) {
+                return o1.mid.compareTo(o2.mid);
+            }
+        });
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(allSaplesByPeriod.get(0).mid.getSample_time());
+        List<MeasurmentDAO.SampleRecordAverage> averageList = new ArrayList<MeasurmentDAO.SampleRecordAverage>();
+        int index = 0;
+        while(index<allSaplesByPeriod.size()){
+            if(calendar.getTime().before(allSaplesByPeriod.get(index).mid.getSample_time())){
+                averageList.add(new MeasurmentDAO.SampleRecordAverage(null,new SampleRecord(null,null,calendar.getTime()),null));
+            }else{
+                averageList.add(allSaplesByPeriod.get(index++));
+            }
+            calendar.add(Calendar.HOUR, (int) preriod);
+        }
+
+        JSONObject jsonObject = new JSONObject();
+        try {
+
+            jsonObject.put("pointInterval",3600 * 1000 * (int)preriod);
+
+            jsonObject.put("name","Temperature ");
+            jsonObject.put("titleX","Temperature Rate ");
+            jsonObject.put("title","All sample records period : "+ period);
+            jsonObject.put("minRange",3600 * 1000 * (int)preriod*allSaplesByPeriod.size());
+            JSONArray jsonArray = new JSONArray();
+
+            int i=0;
+            for(MeasurmentDAO.SampleRecordAverage sampleRecord: averageList){
+                if(++i>=21){
+                    int p=1;
+                }
+                JSONObject jObject = sampleRecord.toJson();
+                //jObject.put("day",sampleRecord.getSample_time().getDay());
+                //jObject.put("month",sampleRecord.getSample_time().getMonth());
+                //jObject.put("year",1900 + sampleRecord.getSample_time().getYear());
+                //jObject.put("timespan",sampleRecord.getSample_time().getTime());
+
+                jsonArray.put(jObject);
+            }
+            jsonObject.put("samples",jsonArray);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
+
+        return jsonObject.toString();
+    }
+
+        @RequestMapping(value = "/api/getMeasurePeriod",method = RequestMethod.GET)
     @ResponseBody
     String getMeasurePeriod(@RequestParam("date1")String date1,
                       @RequestParam("date2")String date2){
@@ -115,8 +198,7 @@ public class HelloController {
             JSONArray array = new JSONArray();
             int size = m.getSamples().size();
             int count = 0;
-           int compresLevel = (int) Math.floor((double) size / Integer.parseInt(compression));
-            float curTemp = 0;
+             float curTemp = 0;
             float curHum = 0;
             Set<SampleRecord> samples = new TreeSet<SampleRecord>();
              for(SampleRecord sr : m.getSamples()){
@@ -164,7 +246,6 @@ public class HelloController {
                              @RequestParam("file") MultipartFile file,
                              @RequestParam("date") String date,
                              @RequestParam("frequency") String frequency) {
-
         if (!file.isEmpty()) {
             try {
                 Date measureDate = dateFormat.parse(date);

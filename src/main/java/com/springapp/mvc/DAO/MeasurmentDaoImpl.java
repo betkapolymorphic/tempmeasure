@@ -6,9 +6,8 @@ import com.springapp.mvc.Util.HibernateUtil;
 import org.hibernate.*;
 import org.hibernate.criterion.Criterion;
 import org.hibernate.criterion.Restrictions;
-import  java.util.List;
-import java.util.Date;
-import java.util.Set;
+
+import java.util.*;
 
 /**
  * Created by Beta on 11/21/14.
@@ -74,5 +73,62 @@ public class MeasurmentDaoImpl implements MeasurmentDAO {
             session.delete(sr);
         }
         session.getTransaction().commit();
+    }
+
+
+    @Override
+    public List<SampleRecordAverage> getAllSaplesByPeriod(String username,float Hours)
+    {
+        SampleRecordDao recordDao = new SampleRecordImpl();
+        TreeSet<SampleRecord> allRecords = recordDao.getAllRecords(username);
+
+        float curHum = 0;
+        float curTemp = 0;
+        int counter = 0;
+        List<SampleRecordAverage> samples = new ArrayList<SampleRecordAverage>();
+
+        SampleRecord min = new SampleRecord();
+        min.setHumidity(Float.MAX_VALUE);
+        min.setTemperature(Float.MAX_VALUE);
+        SampleRecord max = new SampleRecord();
+        max.setHumidity(Float.MIN_VALUE);
+        max.setTemperature(Float.MIN_VALUE);
+
+        Date curDate = allRecords.first().getSample_time();
+
+        for(SampleRecord sr : allRecords){
+            if(sr.getTemperature() > max.getTemperature()){
+                max = sr;
+            }
+            if(sr.getTemperature() < min.getTemperature()){
+                min = sr;
+            }
+            curHum+=sr.getHumidity();
+            curTemp+=sr.getTemperature();
+            counter++;
+
+            if(sr.getSample_time().getTime() - (curDate.getTime() ) >= (1000*3600 * (int)Hours)){
+
+                SampleRecord mid = new SampleRecord(curTemp/counter,curHum/counter,curDate);
+                curDate = sr.getSample_time();
+                samples.add(new SampleRecordAverage(min,mid,max));
+
+                min = new SampleRecord();
+                min.setHumidity(Float.MAX_VALUE);
+                min.setTemperature(Float.MAX_VALUE);
+                max = new SampleRecord();
+                max.setHumidity(Float.MIN_VALUE);
+                max.setTemperature(Float.MIN_VALUE);
+                curHum = 0;
+                curTemp = 0;
+                counter = 0;
+
+            }
+        }
+        if(counter!=0){
+            SampleRecord mid = new SampleRecord(curTemp/counter,curHum/counter,curDate);
+            samples.add(new SampleRecordAverage(min,mid,max));
+        }
+        return samples;
     }
 }
