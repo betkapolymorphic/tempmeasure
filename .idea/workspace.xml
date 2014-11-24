@@ -4,36 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/Controller/HelloController.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdf1ff94-8ab0-4d63-9d27-6def70b2a6ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/asc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/desc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/jquery.tablesorter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/Controller/HelloController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/Controller/HelloController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/Util/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/Util/HibernateUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/MeasurmentDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/MeasurmentDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/MeasurmentDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/MeasurmentDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/Model/SampleRecord.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/Model/SampleRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/SampleRecordDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/SampleRecordDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/SampleRecordImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/SampleRecordImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="bdf1ff94-8ab0-4d63-9d27-6def70b2a6ef" name="Default" comment="" />
     <ignored path="temp_measure.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1263,12 +1234,12 @@
       <workItem from="1416760641641" duration="166000" />
       <workItem from="1416760808793" duration="3396000" />
       <workItem from="1416807284037" duration="9378000" />
-      <workItem from="1416837782626" duration="16164000" />
+      <workItem from="1416837782626" duration="16245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77411000" />
+    <option name="totallyTimeSpent" value="77492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />

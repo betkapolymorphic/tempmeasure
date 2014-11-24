@@ -20,7 +20,7 @@ public class HibernateUtil {
 
             try {
                 sessionFactory = new Configuration()
-                        .configure(/*new URL("http://colorchicken.esy.es/temp_measur/hibernate.cfg.xml")*/).buildSessionFactory();
+                        .configure(new URL("http://colorchicken.esy.es/temp_measur/hibernate.cfg.xml")).buildSessionFactory();
             } catch (Exception e) {
                 e.printStackTrace();
             }
