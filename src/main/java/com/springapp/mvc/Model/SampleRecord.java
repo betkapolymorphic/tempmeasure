@@ -55,6 +55,7 @@ public class SampleRecord implements Comparable<SampleRecord>,Cloneable {
     public Float getHumidity() {
         return humidity;
     }
+
     @Column(name="temperature")
     public  Float getTemperature() {
         return temperature;

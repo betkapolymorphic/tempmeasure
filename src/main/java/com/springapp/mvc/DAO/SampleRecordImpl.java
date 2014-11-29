@@ -31,9 +31,11 @@ public class SampleRecordImpl implements SampleRecordDao{
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
 
-        List<SampleRecord> list = session.createQuery("FROM SampleRecord where sample_time" +
+        List<SampleRecord> list = session.createQuery("FROM  SampleRecord sr" +
+                " where sr.measurment.username= :username and sample_time" +
                 " between :start_date and :end_date")
                 .setParameter("start_date", d1)
+                .setParameter("username",username)
                 .setParameter("end_date", d2).list();
         TreeSet ts = new TreeSet();
         for(SampleRecord sr : list){
@@ -47,7 +49,9 @@ public class SampleRecordImpl implements SampleRecordDao{
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
 
-        List<SampleRecord> list = session.createQuery("FROM SampleRecord order by sample_time").list();
+        List<SampleRecord> list = session.createQuery("FROM SampleRecord sr where sr.measurment.username=:username  order by sample_time")
+                .setParameter("username",username)
+                .list();
         TreeSet ts = new TreeSet();
         for(SampleRecord sr : list){
             ts.add(sr);

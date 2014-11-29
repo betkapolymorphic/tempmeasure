@@ -297,7 +297,7 @@
 </table>
 <div class="container bordered" align = "center">
     <div class="row">
-        <div class="col-xs-3 col-xs-offset-3">
+        <div class="col-xs-3 col-xs-offset-3" style="margin-left:38%">
             <p>Period (hours)</p><br>
             <div class="input-group number-spinner">
 

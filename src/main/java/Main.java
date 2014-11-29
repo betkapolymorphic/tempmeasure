@@ -15,6 +15,7 @@ import java.util.Map;
  * Created by Beta on 11/21/14.
  */
 public class Main {
+    int q;
     public static void main(String[] args) {
         Measurment measurment = new Measurment();
         SampleRecord sampleRecord1 = new SampleRecord();

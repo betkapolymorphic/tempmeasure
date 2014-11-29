@@ -6,6 +6,7 @@ import com.springapp.mvc.Util.HibernateUtil;
 import org.hibernate.*;
 import org.hibernate.criterion.Criterion;
 import org.hibernate.criterion.Restrictions;
+import org.hibernate.sql.JoinType;
 
 import java.util.*;
 

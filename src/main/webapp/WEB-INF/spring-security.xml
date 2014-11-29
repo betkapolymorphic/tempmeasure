@@ -9,7 +9,8 @@
 
 
     <http auto-config="true">
-        <intercept-url pattern="/main**" access="ROLE_USER" />
+        <intercept-url pattern="/*" access="ROLE_USER" />
+
     </http>
 
     <authentication-manager>
